@@ -1,0 +1,59 @@
+@charset "utf-8";
+.accountTable img{
+    width: 100px;
+    height: 100px;
+}
+.accountTable a{
+    font-size: 20px;
+}
+h1 {
+    margin: auto;
+}
+.hedder{
+    
+    position: top;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    border-style: none;
+    z-index: 5;
+}
+
+.main {
+    border-style: none;
+}
+.content{
+    z-index: 1;
+}
+
+td {
+    vertical-align: top;
+    line-height: 50px;
+    font-size: 36px;
+}
+
+.button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
+.culomn>*{
+    width: 50%;
+    float: left;
+}
+.culomn{
+    width:100%;
+    clear: both;
+}
+#account{
+}
+#timeLine{
+    
+}
+nav li{
+    display: inline;
+}
